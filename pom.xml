@@ -12,6 +12,18 @@
         <spring.version>4.0.3.RELEASE</spring.version>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>arcadia-releases</id>
+            <name>arcadia-releases</name>
+            <url>http://arctrialci4.westeurope.cloudapp.azure.com:8081/repository/arcadia-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>arcadia-snapshots</id>
+            <name>arcadia-snapshots</name>
+            <url>http://arctrialci4.westeurope.cloudapp.azure.com:8081/repository/arcadia-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <plugins>
