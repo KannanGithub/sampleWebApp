@@ -1,22 +1,22 @@
 package kg.jenkins.web.controller;
 
-import io.ddavison.conductor.Browser;
-import io.ddavison.conductor.Config;
-import io.ddavison.conductor.Locomotive;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static org.junit.Assert.*;
 
 /**
  * Created by TrialCI on 6/27/2018.
  */
-@Config(
-        url = "http://google.com", // base url that the test launches against
-        browser = Browser.CHROME // the browser to use.
-       )
-public class SeleniumTest extends Locomotive {
+//@Config(
+//        url = "http://google.com", // base url that the test launches against
+//        browser = Browser.CHROME // the browser to use.
+//       )
+public class SeleniumTest { //extends Locomotive {
     @Before
     public void setUp() throws Exception {
     }
@@ -27,8 +27,11 @@ public class SeleniumTest extends Locomotive {
 
     @Test
     public void testHome() throws Exception {
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\TrialCI\\IdeaProjects\\sampleWebApp\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
         System.out.println("Testing....");
-        Thread.sleep(4000);
+        driver.get("http://google.com");
+        Thread.sleep(2000);
+        driver.quit();
     }
-
 }
