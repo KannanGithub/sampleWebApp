@@ -27,7 +27,7 @@ public class SeleniumTest { //extends Locomotive {
 
     @Test
     public void testHome() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\TrialCI\\IdeaProjects\\sampleWebApp\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\TrialCI\\IdeaProjects\\sampleWebApp\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         System.out.println("Testing....");
         driver.get("http://google.com");
