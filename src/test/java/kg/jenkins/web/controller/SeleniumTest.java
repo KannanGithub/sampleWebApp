@@ -28,6 +28,7 @@ public class SeleniumTest { //extends Locomotive {
 
     @Test
     public void testHome() throws Exception {
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
         WebDriver driver = new ChromeDriver(chromeOptions);
