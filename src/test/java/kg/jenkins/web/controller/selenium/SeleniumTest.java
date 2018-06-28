@@ -1,4 +1,4 @@
-package kg.jenkins.web.controller;
+package kg.jenkins.web.controller.selenium;
 
 import org.junit.After;
 import org.junit.Before;
@@ -29,7 +29,6 @@ public class SeleniumTest { //extends Locomotive {
     @Test
     public void testHome() throws Exception {
         //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
-        //System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
