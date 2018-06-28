@@ -28,7 +28,8 @@ public class SeleniumTest { //extends Locomotive {
 
     @Test
     public void testHome() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/share$");
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
