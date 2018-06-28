@@ -28,12 +28,11 @@ public class SeleniumTest { //extends Locomotive {
 
     @Test
     public void testHome() throws Exception {
-        //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        public static String chromeDriverPath = “/usr/bin/chromedriver”;
+       System.setProperty("webdriver.chrome.driver", "/usr/local/share/chromedriver");
 
-        System.setProperty(“webdriver.chrome.driver”, chromeDriverPath);
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--disable-gpu");
         WebDriver driver = new ChromeDriver(chromeOptions);
         System.out.println("Testing....");
         driver.get("http://google.com");
