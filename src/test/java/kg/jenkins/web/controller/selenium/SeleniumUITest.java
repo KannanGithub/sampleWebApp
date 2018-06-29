@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 //        url = "http://google.com", // base url that the test launches against
 //        browser = Browser.CHROME // the browser to use.
 //       )
-public class SeleniumTest { //extends Locomotive {
+public class SeleniumUITest { //extends Locomotive {
     @Before
     public void setUp() throws Exception {
     }
