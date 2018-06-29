@@ -44,11 +44,8 @@
                 <version>2.4.2</version>
                 <configuration>
                     <excludes>
-                        <exclude>${exclude.selenium}</exclude>
+                        <exclude>${exclude}</exclude>
                     </excludes>
-                    <includes>
-                        <include>${include.selenium}</include>
-                    </includes>
                 </configuration>
             </plugin>
 

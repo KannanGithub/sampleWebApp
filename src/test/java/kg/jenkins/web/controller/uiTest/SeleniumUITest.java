@@ -1,4 +1,4 @@
-package kg.jenkins.web.controller.selenium;
+package kg.jenkins.web.controller.uiTest;
 
 import org.junit.After;
 import org.junit.Before;
@@ -6,9 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by TrialCI on 6/27/2018.

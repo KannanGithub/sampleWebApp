@@ -1,5 +1,6 @@
-package kg.jenkins.web.controller;
+package kg.jenkins.web.controller.unitTest;
 
+import kg.jenkins.web.controller.HomeController;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
