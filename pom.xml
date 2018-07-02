@@ -26,10 +26,10 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/KannanGithub/sampleWebApp.git</connection>
-        <developerConnection>scm:git:https://github.com/KannanGithub/sampleWebApp.git</developerConnection>
-        <url>https://github.com/KannanGithub/sampleWebApp/</url>
-        <tag>HEAD</tag>
+       <connection>scm:git:https://github.com/KannanGithub/sampleWebApp.git</connection>
+       <developerConnection>scm:git:https://github.com/KannanGithub/sampleWebApp.git</developerConnection>
+       <url>https://github.com/KannanGithub/sampleWebApp/</url>
+       <tag>HEAD</tag>
     </scm>
 
     <build>
