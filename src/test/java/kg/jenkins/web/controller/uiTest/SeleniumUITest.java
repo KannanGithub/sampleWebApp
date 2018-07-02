@@ -26,14 +26,14 @@ public class SeleniumUITest { //extends Locomotive {
     @Test
     public void testHome() throws Exception {
         //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
-
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--headless");
-        chromeOptions.addArguments("--disable-gpu");
-        WebDriver driver = new ChromeDriver(chromeOptions);
-        System.out.println("Testing....");
-        driver.get("http://google.com");
-        Thread.sleep(2000);
-        driver.quit();
+//
+//        ChromeOptions chromeOptions = new ChromeOptions();
+//        chromeOptions.addArguments("--headless");
+//        chromeOptions.addArguments("--disable-gpu");
+//        WebDriver driver = new ChromeDriver(chromeOptions);
+//        System.out.println("Testing....");
+//        driver.get("http://google.com");
+//        Thread.sleep(2000);
+//        driver.quit();
     }
 }
