@@ -67,7 +67,7 @@
                     <warSourceDirectory>WebContent</warSourceDirectory>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <!-- first priority for the WAR name -->
-<!--                     <warName>sample-web</warName> -->
+                     <!--<warName>sample-web</warName>-->
                 </configuration>
             </plugin>
             <plugin>
