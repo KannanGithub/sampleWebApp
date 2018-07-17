@@ -1,5 +1,5 @@
 <html>
 <body>
-    <h2>Hello Jenkins!Welcome to pipeline view... Release Prepare and Release Perform.!</h2>
+    <h2>Hello Jenkins!Welcome to pipeline view...!Deployed</h2>
 </body>
 </html>
